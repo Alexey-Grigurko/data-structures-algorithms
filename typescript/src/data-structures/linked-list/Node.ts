@@ -1,8 +1,8 @@
-export class Node<T> {
+export class Node<E> {
   constructor(
-    public prev: Node<T> | null = null,
-    public value: T,
-    public next: Node<T> | null = null
+    public prev: Node<E> | null = null,
+    public value: E,
+    public next: Node<E> | null = null
   ) {}
 
   toString(): string {
